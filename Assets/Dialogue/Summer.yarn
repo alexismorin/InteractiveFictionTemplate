@@ -1,0 +1,521 @@
+﻿title: Summer
+tags:
+---
+
+<<if TryFact("started")>>
+<<if TryFact("backOffHitDisk")>>
+<<EndSection>>
+Backing down from your impatient fit is great for self-improvement purposes, but unsurprisingly useless at making the brake slow down any faster. #lastline
+<<else>>
+The disc brake screams as it begins to slow down in front of you. #lastline
+<<endif>> 
+<<else>>
+SUMMER
+<<EndSection>>
+<<AddFact "started">>
+The disc brake screams as it begins to slow down in front of you. #lastline
+<<endif>>
+
+-> You: Patiently wait for it to stop.
+    You're feeling reasonable, calm, collected - all those good things.
+    Most importantly, you don't really have anything else to do but wait - at least not for now.
+    -> You: Look around you and try to ignore the mechanical screaming.
+        <<jump Surroundings>>
+    -> You: Look down at your field reference manual.
+        <<jump FieldReferenceManual>>
+    -> You: Close your eyes. They might have taken everything, but they can't take the eigengrau.
+        <<jump Eigengrau>>
+-> You: Take a closer look.
+    You put your hands on your thighs and lean in - almost as if you were being condescending to a small child.
+    Back when you were little, you did have a fascination with turning off the ceiling fan on hot summer nights.
+    <<AddFact "ceilingFan">>
+    You were too small to reach the pull chain, so mum had tied a spare shoelace onto it for you to reach down.
+    -> You: What did the shoelace look like?
+        It was definitely synthetic - tinted a garish Yellow \#5, the kind that got banned too late in the late 2040's. Probably off a cheap sports sneaker that you never wore.
+        Your room was sparsely furnished - through the evening light of cars passing by, you can still remember the word inscribed on the aglet.
+        SUMMER
+        It's summer soon.
+        Not soon enough. For now, the disc brake is whirring loudly a few inches from your face.
+        It seems to be slightly off balance, like an eyebrow raised in confusion at you deciding to reminisce so close to active industrial machinery.
+        <<jump DiscBrakeSlowToSlowDown>>
+    -> You: Why did I have such a lousy special interest?
+        If an unspecified endocrine disorder giving you intermittent hot flashes at ten is a lousy special interest, you're on the wrong kind of spectrum.
+        Still, to your ten-year-old mind, it was incredible how intangible the fan blades were as they slowed down. First nothing perceptible, then dizzyingly fast - to a full stop in about a minute.
+        It's pretty incredible how fast things stop when they stop for real.
+        -> You: And how is that disc brake doing?
+            Well...
+            <<jump DiscBrakeSlowToSlowDown>>
+    -> You: What about that disc brake? My amygdala is more concerned about that than my wandering mind is.
+        <<jump DiscBrakeSlowToSlowDown>>
+-> You: Slam down on it with your fist - you know it has a tendency to jam when it's on the downturn.
+    <<jump SlamOnDiscBrake>>
+===
+
+title: SlamOnDiscBrake
+tags:
+---
+    Your expert hypodermic controlwoman skills tell you that it's time to apply a bit of percussive maintenance to this thing.
+    You clench your gloved left-hand in a fist. Always go for dangerous maneuvers with your off hand.
+    -> You: Wait? Why am I doing this?
+        You're due for an adenosine precipitation. You're doing this because the disc brake for the drill rig overheated and you had to release it for it to cool down quicker.
+        Now it's spinning wildly, and you need it to slow down so you can open the hatch and harvest the lymphatic fluid.
+        Long story short, you're doing this for work.
+        -> You: Oh, okay.
+            Are we still doing this?
+            -> You: No, I don't believe in work.
+                It's a bad time to be a space bohemian when you're already a thousand meters deep in the innards of a space whale, your cabin sitting right on top of a lymph node.
+                Nonetheless, you are free to do what you want. You unclench your fist.
+                Not a common occurrence.
+                <<AddFact "knowsWhale">>
+                <<AddFact "backOffHitDisk">>
+                <<jump Summer>>
+            -> You: Fuck yeah - I'm trying to get my mind off that bad date with the angle grinder.
+                <<jump PrimeSelfDiscBrakeSlam>>
+        -> You: Wait, what?
+            Are you sure you're in the right headspace to start smashing? You seem a little confused.
+            Yes, that's precisely it - you're confusing smashing things for engineering. A common mistake.
+            So are we smashing, percussively maintaining, or are we asking about our line of work more than needed at the current juncture?
+            -> You: Smashing.
+                Hm. I guess it's really one and the same, with more credentials.
+                Not that you have anything more than a rudimentary accreditation.
+                <<jump PrimeSelfDiscBrakeSlam>>
+            -> You: Percussively maintaining.
+                That's the mind.
+                <<jump PrimeSelfDiscBrakeSlam>>
+            -> You: I don't want to smash anything, I want to marvel at the horrors.
+                <<AddFact "backOffHitDisk">>
+                <<jump Summer>>
+    -> You: Wait, what's my glove made of again? I'm about to slam down on a still-spinning-burning-hot disc brake.
+        It should be fine. You've done this many, many times before... and your glove bears the marks.
+        It's a cheap plastic amalgam on the inside, chainmail in the middle and a terrible faux-leather on the outside.
+        Obviously, the faux-leather on the underside of your hand is nearly gone. You look like a covert android about to be found out.
+        Should still be safe, though.
+        -> You: Let's get to it, then.
+            <<jump PrimeSelfDiscBrakeSlam>>
+        -> You: I don't want to lose my hand for a "should." I might owe my soul to the company store, but my hands are still mine, at least for now.
+            Not an unreasonable hill to die on.
+            You unclench your fist.
+            For now.
+            <<AddFact "backOffHitDisk">>
+            <<jump Summer>>
+    -> You: Prime yourself.
+        <<jump PrimeSelfDiscBrakeSlam>>
+
+===
+
+title: PrimeSelfDiscBrakeSlam
+tags:
+---
+    You lift your fist in the air like a drunk divorcee losing at cards, threatening to slam down on the bezique table.
+    Nothing as pleasant as spilled pastis today, though. The brake disc might be about the size of a laserdisc and seems intent on perforating your eardrums.
+    Through your mask, you can smell the graphite microparticles being sanded off the disc as it struggles to slow down. Your training manual insists that the smell is psychosomatic, but you know better.
+    -> You: Slam down blindly like the drunk divorcee losing at cards you are.
+    <<AddFact "hitDiscBrake">>
+    <<jump DiscBrakeShatters>>
+===
+
+title: Surroundings
+tags:
+---
+    The rest of your surroundings might not be mechanically screaming, but had you had less experience, you might have gone for a good old scream yourself.
+    You have seen this little hypodermic cabin many times before - it's yours!
+    Well, yours within the bounds of good taste. You're rent-to-owning-it from your company - not a bad scheme compared to what some of your friends run as daily drivers.
+    -> You: And what does this little hypodermic cabin do, exactly?
+        Well, how much cognition do we have on our hands here?
+        -> You: I mean, they do prescribe hypodermic drillers amphetamines. I've got oodles of cognition!
+            <<jump LongAnswer>>
+        -> You: My oodles of cognition aren't doing so hot.
+            Alright. In the immediate, you have to know that this cabin is essentially the crossbred child of a mining rig, a hypodermic needle and a drop pod.
+            Once the brake disc finally slows down, you'll be able to lift up the drill apparatus, switch it out to the pumpjack and begin draining the lymphatic fluid out into the ballast tanks lining the sides of the cabin.
+            <<AddFact "knowsWhale">>
+            The process should take a day or two in total.
+            -> You: Okay great, glad to know I can jog my own memory like that.
+                Isn't it grand?
+                <<jump DiscBrakeSlowToSlowDown>> 
+            -> You: This begets more questions than answers.
+                That's what happens when you live life incuriously.
+                -> You: I feel bad about myself and I want to know more.
+                    <<jump LongAnswer>>
+                -> You: I feel just fine about all of it, actually.
+                    I'm sure that's going to serve you just fine, in the end.
+                    <<jump DiscBrakeSlowToSlowDown>> 
+        -> You: I'm tired and I hurt and I want to know why it's warm and humid and dark.
+            It's warm and humid and dark because you're embedded a thousand meters into the flesh of a space whale, right next to one of its swollen lymph nodes.
+            <<AddFact "knowsWhale">>
+            You're tired because you have to pay off the lease on your cabin for this month, send some money to mom - and because the revolution hasn't happened yet.
+            All understandable things.
+            -> You: I want to get back to work and concentrate on the mechanical screaming.
+                A great idea that will surely help you get out of here faster.
+                <<jump DiscBrakeSlowToSlowDown>> 
+            -> You: I want the revolution to happen now so I don't have to be here anymore.
+                You might want to be out of here before that happens. How about we take a look at that disc brake to start things off?
+                <<jump DiscBrakeSlowToSlowDown>> 
+
+===
+
+title: LongAnswer
+tags:
+---
+Fine. This little hypodermic cabin is sent from orbit at a high speed into the axilla of a spacefaring cetacean - between a five hundred to a thousand meters deep depending on the age of the specimen.
+<<AddFact "knowsWhale">>
+With a long tool not quite unlike the one used to pull out deep-set arrowheads, you will be extracted back out eventually.
+In the meantime, your job is to extract lymphatic fluid from the node you were shot right into.
+Once the disc brake settles down, you can switch the apparatus over to a pump that will start the extraction process - should take a couple of days.
+Makes sense?
+-> You: This is my daily job, of course it makes sense.
+    Always good to take a stroll through your memory palace. That's how real memories get made!
+    That being said, the strolling is a little hard under the duress of extremely loud mechanical screeching.
+    <<jump DiscBrakeSlowToSlowDown>> 
+-> You: Does any of it make sense, really?
+    And that's how you fumbled that cute girl at the requisition desk - by being such a fucking dork.
+    You should read more theory, then maybe you'd be able to make more than milquetoast comments... or at least then you'd be undesirable AND learned.
+    Hopefully the disc just shatters and takes you out. How is that doing, exactly?
+    <<jump DiscBrakeSlowToSlowDown>> 
+-> You: And what do they do with the lymphatic fluid?
+    High-viscosity industrial lubricant, mostly. It's got a couple of other applications, but the cadmium content is much too high for anything civilian.
+    Did you know that before they went extinct, bears living in the arctic circle used to have livers incredibly high in Vitamin A?
+    They had no way of expelling it, but usually by the time they passed their system could still support the stress.
+    You should keep taking those chelating tablets.
+    <<jump DiscBrakeSlowToSlowDown>> 
+===
+
+title: FieldReferenceManual
+tags:
+---
+Narrator: Your right hand finds the manual where it should: clipped onto your waist harness with an aluminum-steel carabiner.
+That carabiner is probably the most expensive piece of equipment you're carrying - with the state of things, no surprises that they dispatch drillers with what mostly looks like upcycled climbing gear. With your luck, it's probably a bit radioactive.
+Conversely, the manual itself is probably the cheapest thing in the whole cabin. It's printed on sheets of pulverized microplastic. They had the decency to laminate it, at least - otherwise it'd probably fall apart in a single trip.
+As for the contents...
+-> You: Anything about bad disc brakes acting up on the drilling apparatus?
+    Narrator: I'm afraid it's quite sparse on the subject - there's only a small paragraph about the entry procedure and you're already on step 3.1:
+    "WAIT FOR DRILLING APPARATUS TO SLOW DOWN, THEN REVERSE AXLE TO REMOVE" 
+    This is only the field manual though - the real manual must be somewhere in the storage locker... Underneath the cot, rations, tools, and so on and so forth.
+    You should have packed more neatly. In the meantime, the brake looks like something you don't want to turn your back to.
+    -> You: Well, if I'm not turning my back to it, what else should I be aware of in the meantime?
+        <<jump Surroundings>>
+    -> You: Maybe I can't turn my back to it, but I can do the second best thing.
+        <<jump Eigengrau>>
+-> You: Honestly, I'm looking for anything that is not about bad disc brakes.
+    The manual - which is honestly more akin to those plane crash pamphlets they used to hand out than anything else - is structured out linearly in a couple of pages.
+    You're at step 3.1.
+    -> You: What steps were there before that? Anything bad I missed?
+        "STEP 1.1 - WAIT IN CONTROL HARNESS DURING THE ENTIRETY OF INSERTION PROCEDURE"
+        "STEP 1.2 - DETACH OPERATING HARNESS FROM CONTROL HARNESS ONCE MOTION HAS STOPPED. ENSURE OPERATING HARNESS IS SECURELY ATTACHED"
+        "STEP 2.1 - TAKE SOCKET WRENCH 12 FROM TOOL CABINET A AND UNFASTEN BOTTOM HATCH"
+        "STEP 2.2 - REPLACE BOTTOM HATCH FOR DRILLING GUIDE FROM GUIDE CABINET"
+        "STEP 2.3 - RELEASE HYDRAULIC LOCK AND MOVE DRILLING APPARATUS INTO POSITION"
+        "STEP 2.4 - INSERT SILICONE EAR PROTECTION"
+        "STEP 2.5 - PRESS PREPROGRAMMED ROUTINE BUTTON ON DRILL"
+        "STEP 3.1 - WAIT FOR DRILLING APPARATUS TO SLOW DOWN, THEN REVERSE AXLE TO REMOVE"
+        And that's about it. The drill apparatus now seems to be harshly trying to remind you of its existence.
+        <<jump DiscBrakeSlowToSlowDown>> 
+-> You: Is there a good crossword section in there?
+    There unfortunately isn't, but the last two pages are left blank for you to take notes on.
+    Some other hypodermic drillers like to have a lover's letter or doodled smut on there, but you have to content yourself with some quickly copied sudokus.
+    -> You: Any good ones left?
+        A good sudoku? Those are analogous to like, methadone and a night with an ex. Sudokus never feel good.
+        Besides, you're long done with them all. You accidentally used an alcohol-based pen too, so you can't wipe any of it off.
+        The only one incomplete is one you very probably miscopied.
+        <<jump DiscBrakeSlowToSlowDown>> 
+    -> You: How come I have to content myself with that?
+        You're really due for that adenosine precipitation, aren't you? You have to content yourself with your miserable indelible sudokus because you're sad - and no one wants to write an indelible love letter to a sad hypodermic driller. 
+        <<jump DiscBrakeSlowToSlowDown>> 
+===
+
+title: Eigengrau
+tags:
+---
+    You close your eyes. The incandescent red bulb lighting the hypodermic cabin is faint, but still strong enough to remind you that you are alive, conscious and standing upright. Bummer.
+    Are eyelids too thin?
+    <<AddFact "eigengrau">>
+    They wouldn't disperse tears as well if they were thicker... but one could ostrich oneself from the world much better.
+    -> You: Try half-heartedly to claw your eyes out.
+        Your stupid hand driven by your stupid self-destructive impulse hits your plastic visor - seems like you're keeping your eyesight a while longer. Capital strikes again!
+        Disagreeable mode of production or not, it would be wise to rejoin reality. The disc brake has finally begun to quiet down, but it's giving off a frightful rattle.
+        -> You: Hang on a little longer.
+            Fine.
+            You inhale and exhale.
+            The inside of the visor is warm and humid. You feel your sinuses condense a bit.
+            Are you nursing a small cold?
+            -> You: I don't want to think about inflammation right now.
+            -> You: I don't want to think about inflammation and swollen lymph nodes right now.
+            -> You: I don't want to think about inflammation, swollen lymph nodes and cancer right now.
+            You feel your right subclavian aorta contract a bit.
+            The best way to avoid medical anxiety is to engage with the world as if you were perfectly healthy. Right?
+            You open your eyes.
+            <<jump DiscBrakeSlowToSlowDown>>
+        -> You: Let's rejoin reality, then.   
+            You open your eyes.
+            <<jump DiscBrakeSlowToSlowDown>> 
+    -> You: So they did manage to take the eigengrau from me as well? Assholes.
+        It's a shame, but it seems like they did. To be fair, from the moment the Victorians started calling them "impossible colors" it's all been over for anything not in the visible spectrum.
+        -> You: No! My stygian blue!
+            Thinking too hard about impossible, chimerical or otherwise achromatic colors is giving you a bit of a migraine. There’s a reason you’re a driller and not a colourwoman.
+        -> You: So what haven't they taken?
+        Well - Descartes did say that thinking was the primary attribute of the mind. That's still yours, for the most part.
+        How about we give that old visual cognition a spin and engage with that whirring disc brake?
+        -> You: Fine. Enough muddy-red eigengrau.
+            <<jump DiscBrakeSlowToSlowDown>> 
+        
+===
+title: DiscBrakeSlowToSlowDown
+tags:
+---
+<<EndSection>>
+The disc brake looks like it's finally slowing down, but it's also worryingly trading its wailing for an increasingly loud rattle.
+<<if TryFact("eigengrau")>>
+Narrator: Recognizing it as a spinning disc and not a pure black graphite shape was down to professional expertise, but now even a layperson could make it out for what it is: something going wrong. #lastline
+<<endif>> 
+<<if TryFact("ceilingFan")>>
+Like that ceiling fan in your childhood bedroom, the disc is entering its second stage; if you spin your eyes around it fast enough, you can make out some vague shapes beyond pure concentrism. #lastline
+<<endif>>
+This is all your fault anyways - you set the drill too high to begin with, which caused the whole rig to overheat.
+That obviously had you hit the brake, which then overheated the disc brake itself… Which then had you release the disc brake from the brake pads.
+It would be too on the nose to say that things are beginning to spin wildly out of control
+-> You: Make yourself small in a corner of the cabin.
+    Calling it a cabin is more of a disservice to it than anything. You like to think yourself more professional than those calling it a deathtrap, but there's surely a sensible semantic third way.
+    -> You: I sleep here for more than two nights in a row - it's a cabin.
+        You get in the foetal position on the floor of the cabin, right by one of the backflow grates you can open in an emergency if you mistakenly hit something other than a lymph node.
+        Like a trapped animal, you clench your muscles and await the worst.
+        <<jump DiscBrakeShatters>>
+    -> You: Industrial leech?
+        It's funnier when the girl at the requisition desk says it.
+        You wonder if she's been in this sort of situation before.
+        You're really not that charming, are you? Instead of curling up or anything sensible, you sort of hunch your shoulders over and cross your legs like you just had a fig with a wasp still in it.
+        <<jump DiscBrakeShatters>>
+    -> You: No there isn't, this is actively a deathtrap-type situation.
+        It really is, isn't it? Defeated, you sit down by the side-hatch of the deathtrap and - like a preteen pretending to have smoked before - try and keep your cool.
+        <<jump DiscBrakeShatters>>
+-> You: Now's the time for that percussive maintenance.
+    It could be, yeah.
+    -> What does that even mean? #lastline
+        It means your anxiety is speaking to you. Do you want to add more water to the fire... or flesh to shattered brake graphite? 
+        -> You: Yes, I fucking hate this job and life and everything and everyone else and I want to take it out on this malfunctioning piece of machinery.
+            <<AddFact "hitDiscBrake">>
+            <<jump DiscBrakeShatters>>
+        -> You: Actually I'd like to keep a minimal number of things functional in my body, thanks.
+            <<AddFact "waitedTooLong">>
+            <<jump DiscBrakeShatters>>
+    -> You: Enough pleasantries - slam down on the disc with a closed fist.
+        <<AddFact "hitDiscBrake">>
+        <<jump DiscBrakeShatters>>
+===
+
+
+title: DiscBrakeShatters
+tags:
+---
+    <<EndSection>>
+    <<if TryFact("hitDiscBrake")>>
+    You're an idiot - or at least, you feel like an idiot. Before you're able to cognize anything, you feel the disc shatter under your fist. 
+    -> You: What's the damage?
+    -> You: I'm not an idiot; I cry and feel and needed to break a thing.
+        Yes, that's true... but careful breaking things that can kill you.
+    By the warmth emanating from your lower wrist, it looks like a piece of shrapnel has managed to scuttle into the tiny crevice between your glove and leather jacket.
+    You're bleeding.
+    <<jump BloodPressureLoss>>
+    <<else>>
+    <<if TryFact("waitedTooLong")>>
+    Honestly, indecision was probably the worst way of taking this on.
+    <<endif>> 
+    Unsurprisingly, the disc brake finally comes apart in a final deathly rattle and goes flying in all directions.
+    -> You: Raise your hands in front of your face to avoid shrapnel.
+        You should have done that a minute ago - what had to happen already happened.
+        There's a reason guns are so effective - we're really bad when it comes to reaction time under a quarter of a second.
+        The sudden rush of adrenalin might have made you unusually clammy... but holding your hands in front of your face, you feel a slight warm trickle from the side of your wrist.
+        You're bleeding.
+        <<jump BloodPressureLoss>>
+    -> You: Assess the damage to the cabin.
+        The anxious professional inside you instantly gets to work itemizing the damage to their work tools.
+        Whatever broke you'll have to fix, so you have to make sure you do it right.
+        -> You: Inspect the pump apparatus.
+            Thankfully, the rubber pipe bolted to the pump outflow looks like it was spared from the mess. Aside from you, it’s probably the second most fragile thing in the room.
+            -> You: Run your hand along the pipe to look for microtears.
+                Good idea.
+                You bend slightly to the side to reach the far end of the pipe. As your jacket stretches taut across your left arm, you feel a sudden sharp stabbing pain under your wrist... then warmth.
+                You're bleeding.
+                <<jump BloodPressureLoss>>
+        -> You: Inspect the sides of the hull for damage.
+            Things seem to be in relative order. The hull itself is lined with lead as a cheap way to protect the driller from radiation - it's not much of an issue to have to pull out shards of graphite embedded in it.
+            -> You: Clean up the dartboard after a lousy bar night.
+                You raise your right arm to pick a long shard out from the tool locker. In spite of everything, your hands are shaking a little.
+                Curling your hand around the strange shiv, a sharp stabbing pain makes itself known near your wrist.
+                You're bleeding.
+                <<jump BloodPressureLoss>>
+        -> You: Look for all the shattered disc brake pieces.
+            With a bit of luck, you can probably find all the pieces and have them ground to dust to reapply on some other piece of machinery.
+            Or maybe your bike?
+            Let's get out of here first.
+            A little unsteadily, you get on your knees and begin to look for the fragments.
+            -> You: Hey, there's one right here!
+                Great, at least the biggest one had the grace of landing right in front of you.
+                You reach out to take it - and feel a sharp stab across the underside of your wrist.
+                You're bleeding.
+                <<jump BloodPressureLoss>>
+    -> You: Assess the damage to yourself.
+        By some stroke of luck, you seem to have made it through unscathed - maybe just a little shaken.
+        Still good to make sure though.
+        You pat your abdomen and chest - all seems good.
+        Head and neck feel fine as well. A small piece that would have probably given you a pretty lousy eyebrow scar actually got stopped by your visor? 
+        -> You: Great!
+            Absolutely! You clap your hands together in satisfaction of having made it through another industrial accident.
+            You really are an idiot - An incredibly sharp stab reverberates across your entire right arm.
+            Warmth.
+            You're bleeding.
+            <<jump BloodPressureLoss>>
+    <<endif>> 
+===
+
+title: BloodPressureLoss
+tags:
+---
+    <<EndSection>>
+    You're not bad with blood, but this is still very much a cause for alarm.
+    An open wound means a risk of infection, or worse - any biological intermingling with the whale's lymphatic fluid means that you're onboard for instant heavy metal poisoning.
+    That goes beyond just chelating tablets - we're taking hepatitis, baby! 
+    Can you do hepatitis?
+    Swollen lymph nodes?
+    The minute those balloon you can never really know what the free radicals in your body are up to, can you?
+    -> You: Oh God.
+        Lost a thousand meters in this cancerous hell, it seems even your god has forsaken you.
+    -> You: Stiff upper lip - I'm an Accredited Class B Hypodermic Controlwoman, goddamnit.
+        Bravado was never your forte. From deep within the mix of cartilage, bowels and overactivated nerves in your center of mass, you feel a retch coming on.
+    You feel a little unsteady on your feet.
+    Is your blood pressure dropping? It's definitely dropping. 
+    -> You: That's fine, I can just breathe and it'll get back up.
+        Not in time though - you know that.
+        <<jump AdenosinePrecipitation>>
+    -> You: Oh no, the adenosine precipitation.
+        Oh yes.
+        <<jump AdenosinePrecipitation>>
+
+===
+
+title: AdenosinePrecipitation
+tags:
+---
+    <<EndSection>>
+    One of the main safeguards put in place to make sure that drillers don't accidentally fall asleep on the job is the adenosine precipitation.
+    Adenosine is one of the four nucleoside building blocks of RNA. As one remains awake throughout the day, it builds up in the brain.
+    It's one of the many, many things that leaves you tired by the time your head hits the cot.
+    Normally one could just sleep to let your brain recycle it - but you're not that lucky, are you?
+    -> You: No, I'm not lucky at all.
+        Stop being so miserable - you have a mother who loves you.
+        -> You: I'm thousands of miles from home, embedded in the dying corpse of an animal that's lived eons longer than my entire bloodline.
+            You know this is why you have no friends, right? You can't just keep ragging on like this indefinitely and expect that people will keep an infinite well of patience for you.
+            <<jump DreamTransition>>
+        -> You: Yeah, okay.
+            All better?
+            -> You: No, she's gonna die and then I'm gonna be alone.
+            <<jump DreamTransition>>
+    -> You: What leaves me tired by the time my head hits the cot is the system around me.
+        Eh, room-temperature take. You're still gonna need to work after the revolution, you know?
+        -> You: No, I hate work.
+            Yeah, you already said that earlier.
+            Or did you? You're not so sure now. Man, you're really dizzy.
+            <<jump DreamTransition>>
+        -> You: I know, just not this cruel, bullshit job.
+            Fair. Maybe you can ask your workers' council to examine better high-viscosity industrial lubricants.
+            <<jump DreamTransition>>
+    -> You: And what about the precipitation part?
+        Responsible as you are, you're working your brain too hard right now.
+        Then again, you are the type to keep counting down into negative numbers when getting anesthetized for surgery.
+        <<jump DreamTransition>>
+
+===
+title: DreamTransition
+tags:
+---
+    Triggered by your sudden drop in blood pressure, the IV solution begins to make its way through the catheter underneath your left armpit and into your bloodstream.
+    You feel the plastic tube taped to your back cool your sweaty skin.
+    -> You: Try to rip off the IV bag.
+        You pathetically fumble trying to take your jacket off.
+        As your peripheral vision blurs, you vaguely remember that the bag is sewn inside the jacket - and the jacket is sewn onto you.
+        Not especially cruel considering how routine this procedure usually is.
+        Merely terribly inconvenient right now.
+    -> You: Try to sit - let's not make bad worse by bumping our head.
+        You look down and it's as if you were a billion miles away from the floor.
+        All you can manage is to unsteadily lean on the drilling apparatus.
+    <<EndSection>>
+    So - the precipitation aspect of it.
+    After modafinil was taken off shelves in 2065 when they found out what it did to your liver long-term, a better solution had to be devised for field wakefulness.
+    A couple of years later, it was discovered that with a careful cocktail injected close to the heart, one could essentially precipitate all the adenosine in the body in a matter of minutes.
+    Short of the occasional kidney stone, the result was instant and lasting wakefulness. Finally, capitalism managed to commodify fatal familial insomnia!
+    Like the symptoms of schizophrenia, the palette of side-effects that occur in the minute of an adenosine precipitation varies wildly per person and childhood socioeconomic status.
+    As for you... you know what it feels like for you.
+    A sudden rush of cold.
+    Feeling lied to.
+    A powerful sense of synchronicity.
+    Nostalgia.
+    <<jump Dream>>
+===
+
+title: Dream
+tags:
+---
+<<EndSection>>
+    Summer.
+    The clouds beyond the horizon are no better than sparse abandoned brushstrokes on a black velvet canvas.
+    It's getting dark. All along the concrete boardwalk, vendors are rolling up their stalls for the night.
+    Your left hand runs across your left knee. Under the adhesive bandage, you feel a scab that was picked too many times.
+    <<if TryFact("hitDiscBrake")>>
+    Always go for dangerous maneuvers with your off hand.
+    <<endif>> 
+    Your hair is getting in your face. It was strands of golden brown an hour ago - now it's strands of black and blue, along with everything else. It needs a trim.
+    -> You: Push my hair aside, then. 
+    Sitting on the edge of the boardwalk, the beachfront lies in front of you. Beyond the horizon, the sea lies infinite.
+    Above, airships are lighting up the night, their beams cast onto the kilometers of sand flats separating you from the sea.
+    Your mother explained it to you.
+    The moon makes the tide, and you live on a planet with an exceptionally heavy moon... and therefore an exceptional tide. Her words.
+    Your right hand clenches slightly. You feel the day's bounty of seashells held inside. It's not enough.
+    You step down onto the sand and begin walking downhill, into the mass of seaweed and stones.
+    A man smoking outside a nearby bistro calls you over paternalistically, but you know better - It'll be a couple of hours before you even have to think about the tide coming back up.
+    You'll be safe in bed by then, listening to the fan rattle, intently watching the pull chain's shadow puppets.
+    -> You: For now, I'm walking down the nearshore.
+    You are. You notice all the strange conches and calamari you'd never have the strength to carry home, as much as you wish you could invite them over for tea.
+    You did try to bring a small sea-snail home once. It died when you put it in a glass of freshwater.
+    -> You: Let go of the small seashells still tightly clutched in your hand.
+    Yes, you did. 
+    It's quite dark.
+    You're cold - the mistral came early that year.
+    You're further than you've gone in a while now. Or are you? 
+    You hit a wall of darkness. Or is it?
+    You look up.
+    It's just a large rock.
+    -> You: Where am I?
+    A large eye opens.
+    It's not a rock, it's a whale.
+    -> You: Pet it with your little hand.
+    It closes its eye. Things will be okay.
+    <<jump End>>
+===
+
+title: End
+tags:
+---
+<<EndSection>>
+The drilling apparatus makes a loud crash as it strikes the side of the cabin.
+Seems you had been leaning on it in your stupor.
+At your feet, the drilling guide you replaced the floor hatch with looks garish - like a frame for the bloodiest of paintings.
+-> You: What step are we at in the manual now?
+    You bring up your field manual reference. 
+    "STEP 4.1 - INSERT PUMPJACK INTO AXILLARY LYMPH NODE"
+    -> You: Better get to it then.
+        You walk towards the rubber hose piled in the corner of the cabin.
+        Things won't always be like this.
+        It's summer soon.
+    -> You: I can't do this anymore.
+        <<jump Finale>>
+-> You: I can't do this anymore.
+    <<jump Finale>>
+===
+
+title: Finale
+tags:
+---
+    You let your back slide down the side of the cabin, until you're just sitting.
+    It's pretty incredible how fast things stop when they stop for real.
+    No you can't keep doing this.
+    Things are going to be alright, though.
+    It's summer soon.
+===

@@ -1,0 +1,75 @@
+fileFormatVersion: 2
+guid: f39d7ce959d9d284a9c928c733efbd9b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 053561912b1654d80a424bb0696a74ae, type: 3}
+  sourceScripts:
+  - {fileID: 6391573757903218779, guid: b51850475bdbabf46be964cec836697a, type: 3}
+  - {fileID: 6391573757903218779, guid: 72e0334d7cca130458dcf8f80068762f, type: 3}
+  - {fileID: 6391573757903218779, guid: eba28f05be4e1e2478dfd7119c4afc6e, type: 3}
+  - {fileID: 6391573757903218779, guid: 6294fbc02a319014f8e19cdc0ff60ac7, type: 3}
+  - {fileID: 6391573757903218779, guid: 6029902ddd04c924398bb604b2e87e29, type: 3}
+  - {fileID: 6391573757903218779, guid: a1469e8a37f3072408b28cfb3608ec3c, type: 3}
+  - {fileID: 6391573757903218779, guid: fc9425b8e669b6b40aef4217be99c1f4, type: 3}
+  - {fileID: 6391573757903218779, guid: 7e175568fa8c0ba479bbae23dea4c2c9, type: 3}
+  compileErrors: []
+  serializedDeclarations: []
+  defaultLanguage: en-US
+  languagesToSourceAssets: []
+  useAddressableAssets: 0
+  searchAllAssembliesForActions: 1
+  assembliesToSearch: []
+  ListOfFunctions:
+  - Name: CoolFunction
+    ReturnType: -> Int32
+    Parameters: []
+  - Name: Random
+    ReturnType: -> Single
+    Parameters: []
+  - Name: RandomRange
+    ReturnType: -> Single
+    Parameters:
+    - minInclusive
+    - maxInclusive
+  - Name: Dice
+    ReturnType: -> Int32
+    Parameters:
+    - sides
+  - Name: Round
+    ReturnType: -> Int32
+    Parameters:
+    - num
+  - Name: RoundPlaces
+    ReturnType: -> Single
+    Parameters:
+    - num
+    - places
+  - Name: Floor
+    ReturnType: -> Int32
+    Parameters:
+    - num
+  - Name: Ceil
+    ReturnType: -> Int32
+    Parameters:
+    - num
+  - Name: Inc
+    ReturnType: -> Int32
+    Parameters:
+    - num
+  - Name: Dec
+    ReturnType: -> Int32
+    Parameters:
+    - num
+  - Name: Decimal
+    ReturnType: -> Single
+    Parameters:
+    - num
+  - Name: Int
+    ReturnType: -> Int32
+    Parameters:
+    - num
